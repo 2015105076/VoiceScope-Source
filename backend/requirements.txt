@@ -1,0 +1,12 @@
+fastapi>=0.115,<1
+uvicorn[standard]>=0.30,<1
+httpx>=0.27,<1
+python-multipart>=0.0.20,<1
+numpy>=1.26,<3
+scipy>=1.12,<2
+soundfile>=0.12,<1
+torch>=2.1
+transformers>=4.40
+
+# Optional MySQL durable mirror
+PyMySQL>=1.1,<2

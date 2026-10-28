@@ -1,0 +1,8 @@
+{
+  "checkpoint_path": "/absolute/path/to/ast_wavlm_voice_project/outputs/ast_wavlm_silence/best.pt",
+  "model_version": "ast-wavlm-v1",
+  "device": "auto",
+  "local_files_only": false,
+  "max_upload_mb": 25,
+  "min_audio_seconds": 0.5
+}

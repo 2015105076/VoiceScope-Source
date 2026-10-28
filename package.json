@@ -1,0 +1,29 @@
+{
+  "name": "voicescope-agent",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:browser": "node scripts/build-browser.mjs",
+    "test:browser": "node --test tests/browser-local.test.mjs",
+    "start": "next start",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@ant-design/icons": "latest",
+    "@ant-design/nextjs-registry": "latest",
+    "antd": "latest",
+    "next": "latest",
+    "react": "latest",
+    "react-dom": "latest"
+  },
+  "devDependencies": {
+    "@types/node": "latest",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "typescript": "latest"
+  }
+}
